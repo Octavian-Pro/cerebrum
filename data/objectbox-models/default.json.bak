@@ -1,0 +1,171 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:2924708858549573332",
+      "lastPropertyId": "4:8427207123871351344",
+      "name": "Contact",
+      "properties": [
+        {
+          "id": "1:1633681641286204863",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:3045662882581389350",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:8505443606677152911",
+          "name": "phone",
+          "type": 9
+        },
+        {
+          "id": "4:8427207123871351344",
+          "name": "speciality",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:1129335373507347315",
+      "lastPropertyId": "7:4468701959903028518",
+      "name": "UserExercise",
+      "properties": [
+        {
+          "id": "1:4168013168052431218",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4162041058312608468",
+          "name": "exerciseId",
+          "type": 5
+        },
+        {
+          "id": "3:2401560436908763123",
+          "name": "fileName",
+          "type": 9
+        },
+        {
+          "id": "4:2089980384995288026",
+          "name": "exercisesName",
+          "type": 9
+        },
+        {
+          "id": "5:4796377353569635091",
+          "name": "fileExtension",
+          "type": 9
+        },
+        {
+          "id": "6:780517813318288367",
+          "name": "videoLink",
+          "type": 9
+        },
+        {
+          "id": "7:4468701959903028518",
+          "name": "langs",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:6132526940214804792",
+      "lastPropertyId": "9:8521419801277453854",
+      "name": "CalendarEvent",
+      "properties": [
+        {
+          "id": "1:8800953676868044562",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:5327110055734148098",
+          "name": "reminderType",
+          "type": 5
+        },
+        {
+          "id": "3:1973852363569960584",
+          "name": "year",
+          "type": 5
+        },
+        {
+          "id": "4:6172358924541163916",
+          "name": "month",
+          "type": 5
+        },
+        {
+          "id": "5:2141916025267698341",
+          "name": "day",
+          "type": 5
+        },
+        {
+          "id": "6:6176070699375399841",
+          "name": "hour",
+          "type": 5
+        },
+        {
+          "id": "7:755341412662943569",
+          "name": "minute",
+          "type": 5
+        },
+        {
+          "id": "8:5024302837519614730",
+          "name": "description",
+          "type": 9
+        },
+        {
+          "id": "9:8521419801277453854",
+          "name": "uid",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:7131902430621958457",
+      "lastPropertyId": "4:842628916193448478",
+      "name": "CalendarCategory",
+      "properties": [
+        {
+          "id": "1:5931509334448031660",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "3:4254043592863788926",
+          "name": "category",
+          "type": 9
+        },
+        {
+          "id": "4:842628916193448478",
+          "name": "caption",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "4:7131902430621958457",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    5356853078274616821
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}
